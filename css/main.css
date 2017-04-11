@@ -1,0 +1,698 @@
+
+/* -----------------------------------------------------------------
+Responsive at mobile size
+------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Poppins');
+body{
+    font-size: 1em;
+    background-size: cover;
+    font-family: "Palatino Linotype", Palatino, serif;
+    
+}
+
+/*-----------------------------------------------------------------
+    Text Styling
+-----------------------------------------------------------------*/
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: ##2d422d;
+}
+
+a:hover{
+    color: #182419;
+}
+
+/*-----------------------------------------------------------------
+    Image Sizing
+-----------------------------------------------------------------*/
+    img{
+        width: 100%;
+    }
+
+/*-----------------------------------------------------------------
+    Image Sizing
+-----------------------------------------------------------------*/
+button{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+ /*-----------------------------------------------------------------
+    Table Sizing
+-----------------------------------------------------------------*/  
+
+table tr td{
+    font-size: 1.2em;
+   text-align: center;
+}
+
+.buy-btn{
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: .5em .5em;
+    text-decoration: none;
+    background-color: #2d422d;
+}
+
+.comparisons{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.comparisons td{
+    padding: .5em;
+    border-right: solid 1px;
+    border-color: #d3d3d3;
+}
+
+.comparisonFirst{
+    border-left: solid 1px;
+    border-color: #d3d3d3;
+}
+
+ /*-----------------------------------------------------------------
+    List CSS
+-----------------------------------------------------------------*/
+.list  li {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    list-style-type: square;
+}
+
+.listSmall  li {
+    padding-bottom: .5em;
+    font-size: 1.3em;
+    list-style-type: square;
+}
+
+ /*-----------------------------------------------------------------
+    Form CSS
+-----------------------------------------------------------------*/
+form{
+    width: 100%;
+}
+
+form table tr td{
+    text-align: right;
+}
+
+form table td+td{
+    text-align: left;
+}
+
+input[type=submit]{
+    background-color: #2d422d;
+    color: white;
+    border-style: none;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+ /*-----------------------------------------------------------------
+    Gallery CSS
+-----------------------------------------------------------------*/ 
+.thumb{
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------------
+    Iframe video styling
+-----------------------------------------------------------------*/
+.videoWrapper{
+    padding-bottom: 10%;
+}
+
+.videoWrapper iframe{
+    width: 100%;
+    height: 20em;
+}
+
+/*-----------------------------------------------------------------
+    No Loading CSS
+-----------------------------------------------------------------*/
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+
+ /*-----------------------------------------------------------------
+    Book Description Styling
+-----------------------------------------------------------------*/ 
+
+#sum1{
+    visibility:hidden;
+}
+#sum2{
+    visibility:hidden;
+}
+#sum3{
+    visibility:hidden;
+}
+#sum4{
+    visibility:hidden;
+}
+#sum5{
+    visibility:hidden;
+}
+#sum6{
+    visibility:hidden;
+}
+#sum7{
+    visibility:hidden;
+}
+#sum8{
+    visibility:hidden;
+}
+#sum9{
+    visibility:hidden;
+}
+
+
+/*-----------------------------------------------------------------
+    Responsive Styling
+-----------------------------------------------------------------*/  
+
+.wrapper{
+    width: 25em;
+    margin: 0px  auto;
+    padding: 0 1em;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.one_column{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+
+.two_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.three_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.four_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.five_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.six_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.seven_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.eight_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.nine_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.ten_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.eleven_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.twelve_columns{
+    width: 100%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+
+/* -----------------------------------------------------------------
+Navigation CSS
+------------------------------------------------------------------- */
+
+nav{
+    padding-bottom: 3em;
+    width: 100%;
+    padding-left: 0; 
+    margin-left: 0;
+    margin-left: 0;
+    z-index: 2;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #28404F;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav li{
+    float: left;
+    border-right: 1px solid #fff;
+
+}
+nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: #1A77C7;
+}
+.active{
+    background-color: #145D9C;
+} 
+
+/* -----------------------------------------------------------------
+Footer CSS
+------------------------------------------------------------------- */
+footer{
+    display: block;
+    background-color:#182419;
+    color: #ffffff;
+    padding-top: .5em;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+
+}
+
+/* -----------------------------------------------------------------
+Responsive between 550px and 800px
+------------------------------------------------------------------- */
+
+
+@media (min-width: 550px) {
+
+    .wrapper{
+        width: 500px;
+    }
+    
+.one_column{
+    width: 7.99%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+
+.two_columns{
+    width: 16.33%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.three_columns{
+    width: 24.67%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+    padding: .5em; 
+}
+.four_columns{
+    width: 32.99%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.five_columns{
+    width: 41.33%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.six_columns{
+    width: 49.67%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.seven_columns{
+    width: 57.99%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.eight_columns{
+    width: 66.33%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.nine_columns{
+    width: 74.67%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+.ten_columns{
+    width: 82.99%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+    .eleven_columns{
+    width: 91.33%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+    .twelve_columns{
+    width: 99.67%;
+    float: left;
+
+    box-sizing: border-box;
+    padding: .5em; 
+}
+}
+
+
+/* -----------------------------------------------------------------
+Responsive between 800px and 1100px
+------------------------------------------------------------------- */
+
+
+@media (min-width: 800px) {
+
+    .wrapper{
+        width: 760px;
+    }  
+
+    
+    
+}
+
+
+.wrapper:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
+
+/* -----------------------------------------------------------------
+Mobile CSS
+------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------
+Global CSS
+------------------------------------------------------------------- */
+
+.wrapper{
+    width: 100%;
+}
+
+body{
+    /*background-color: red;*/
+    margin: 0 0;
+    padding: 0 0;
+    background-color: rgb(135, 206, 235);
+}
+
+a{
+    text-decoration: none;
+    color: #689916;
+}
+
+a:hover{
+    color: #09680C;
+}
+
+a:visited{
+    color: #279C2A;
+}
+
+.bg-color{
+    background-color: #2d422d;
+}
+
+
+.parallax-test{
+    background-image: url(../images/painting.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 5%;
+    color: #ffffff;
+    width: 100%;
+    display: block;
+}
+
+.parallax-test img{
+    width: 75%;
+    height: 75%;
+    border-radius: 50% 50%;
+    box-shadow: 5px 10px 10px black;
+}
+/* This is the testing for the parallax movement as seen on dev tips*/
+.scenery-box{
+    position: relative;
+    height: 670px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: -5;
+    display: none;
+}
+
+.pForeground{
+    background-image: url(../images/parallax_foreground.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 40;
+}
+.pBackground{
+    background-image: url(../images/parallax_background.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 38;
+}
+
+/* Billboard Content*/
+.billboard {
+  background-image: url(../images/billboard-full.png);
+  background-size: 90% 100%;
+  width: 100%;
+  height: 120%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 70px;
+  z-index: 5;
+}
+.billboard-content h2 {
+  text-align: left;
+  margin-top: 260px;
+  margin-left: 10%;
+  position: absolute;
+  z-index: 10;
+  font-size: 5em;
+}
+.billboard-content img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50% 50%;
+  position: absolute;
+  z-index: 10;
+  margin-left: 60%;
+  margin-top: 150px;
+}
+/* Hill Content*/
+.hill {
+  background-image: url(../images/hill.png);
+  background-size: 110% 100%;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 500px;
+  z-index: 4;
+}
+/* Mountains Content*/
+.mountains {
+  background-image: url(../images/mountains.png);
+  background-size: 90% 100%;
+  width: 35%;
+  height: 35%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 460px;
+  /*margin-left: 400px;*/
+  margin-left: 25%;
+  z-index: 3;
+}
+/*Sun Content*/
+.sun {
+  background-image: url(../images/sun.png);
+  background-size: 30% 30%;
+  width: 35%;
+  height: 35%;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: 400px;
+  /*margin-left: 400px;*/
+  margin-left: 26%;
+  z-index: 2;
+}
+/* -----------------------------------------------------------------
+screen sizes from 550px to 799px
+------------------------------------------------------------------- */
+
+@media (min-width: 550px) {
+    
+    body{
+        font-size: 1.3em;
+    }
+    
+    .center{
+        text-align: center;
+        align-content: center;
+    }
+    .parallax-test img{
+    width: 400px;
+    height: 350px;
+    border-radius: 50% 50%;
+    }
+    
+    button{
+    width: 100%;
+    }
+    .ps{
+        margin-bottom: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+    
+     .scenery-box{
+        display: block;
+    }
+    .parallax-test{
+        display:none;
+    }
+    
+}
+
+/* -----------------------------------------------------------------
+For screens larger than 800px
+------------------------------------------------------------------- */
+
+@media (min-width: 800px) {
+    
+   
+    .wrapper{
+        background-color: #ffffff;
+    }
+
+    
+}
+
+/* -----------------------------------------------------------------
+Responsive after 1100px
+------------------------------------------------------------------- */
+
+
+
+@media (min-width: 1100px) {
+
+.wrapper{
+        width: 1000px;
+    }
+    
+.list  li {
+    padding-bottom: 1em;
+    font-size: 2em;
+    list-style-type: square;
+}
+    
+}
+
+
+
